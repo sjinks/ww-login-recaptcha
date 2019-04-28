@@ -182,9 +182,4 @@ final class Plugin
 
 		return new \WP_Error('invalid_captcha', \__('<strong>ERROR:</strong> reCAPTCHA verification failed.', 'wwlr-front'));
 	}
-
-	public static function isSitewide() : bool
-	{
-		return self::$sitewide;
-	}
 }

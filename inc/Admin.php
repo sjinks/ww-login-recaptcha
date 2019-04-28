@@ -24,17 +24,9 @@ final class Admin
 	public function init()
 	{
 		\load_plugin_textdomain('wwlr-admin', /** @scrutinizer ignore-type */ false, \plugin_basename(\dirname(__DIR__)) . '/lang/');
-		\add_action('admin_init', [$this, 'admin_init']);
-
-		if (Plugin::isSitewide() && \is_network_admin()) {
-			\add_action('network_admin_menu', [$this, 'network_admin_menu']);
-			$options = (array)\get_site_option(Plugin::OPTIONS_KEY, []);
-			if (!empty($options['active'])) {
-				return;
-			}
-		}
-
-		\add_action('admin_menu', [$this, 'admin_menu']);
+		\add_action('admin_init',         [$this, 'admin_init']);
+		\add_action('network_admin_menu', [$this, 'network_admin_menu']);
+		\add_action('admin_menu',         [$this, 'admin_menu']);
 	}
 
 	public function admin_init()
