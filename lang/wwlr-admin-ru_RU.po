@@ -1,0 +1,119 @@
+# Copyright (C) 2019 WW Login reCAPTCHA
+# This file is distributed under the same license as the WW Login reCAPTCHA package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WW Login reCAPTCHA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: inc/Admin.php:52
+msgid "Active"
+msgstr "Активна"
+
+#: inc/Admin.php:61
+msgid "Invisible"
+msgstr "Невидимая"
+
+#: inc/Admin.php:67, views/ms-options.php:20
+msgid "Check this if you have signed up for \"Invisible reCAPTCHA badge\""
+msgstr "Поставьте галочку в случае использования «Невидимого значка reCAPTCHA»"
+
+#: inc/Admin.php:73
+msgid "Site Key"
+msgstr "Ключ сайта"
+
+#: inc/Admin.php:82
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#: inc/Admin.php:92, inc/Admin.php:97, inc/Admin.php:97
+msgid "WW Login reCAPTCHA"
+msgstr "WW Login reCAPTCHA"
+
+#: inc/Admin.php:104
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: views/ms-options.php:3, views/options.php:3
+msgid "Login reCAPTCHA"
+msgstr "Login reCAPTCHA"
+
+#: views/ms-options.php:7, views/options.php:5
+msgid ""
+"Please <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\" "
+"rel=\"noopener\">click here</a> to view your existing reCAPTCHA keys or sign "
+"up for a new one."
+msgstr ""
+"<a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\" rel="
+"\"noopener\">Перейдите по ссылке</a> для просмотра существующих или создания "
+"нового ключа reCAPTCHA."
+
+#: views/ms-options.php:9
+msgid ""
+"All settings except \"Active\" can be overridden by other network sites."
+msgstr "Все настройки за исключением «Активная» можно переопределить в других сайтах сети."
+
+#: views/ms-options.php:37, views/options.php:15
+msgid ""
+"If everything is configured correctly, you should see a reCAPTCHA box below "
+"or the logo of the invisible reCAPTCHA in the bottom right corner."
+msgstr ""
+"Если всё настроено правильно, Вы увидите либо флажок «Я не робот» ниже, либо "
+"логотип невидимой reCAPTCHА в правом нижнем углу."
+
+#: views/ms-options.php:41, views/options.php:19
+msgid "If you see an error message:"
+msgstr "Если Вы видите сообщение об ошибке:"
+
+#: views/ms-options.php:43, views/options.php:21
+msgid ""
+"Please make sure that the keys entered are correct (<strong>note:</strong> "
+"the plugin supports only reCAPTCHA v2, <em>\"I'm not a robot\" Checkbox</em> "
+"and <em>Invisible reCAPTCHA badge</em> falvors)"
+msgstr ""
+"Убедитесь, что ключи введены правильно (<strong>внимание:</strong> плагин "
+"поддерживает только reCAPTCHA v2, варианты <em>Флажок \"Я не робот\"</em> и "
+"<em>Невидимый значок reCAPTCHA</em>)"
+
+#: views/ms-options.php:44, views/options.php:22
+msgid ""
+"If you are using the <em>\"I'm not a robot\" Checkbox</em> reCAPTCHA, please "
+"make sure that \"Invisible\" checkbox above is turned off."
+msgstr ""
+"Если Вы используете вариант reCAPTCHA «<em>Флажок \"Я не робот\"</em>», "
+"убедитесь, что флажок «Невидимая» отключён."
+
+#: views/ms-options.php:47, views/options.php:25
+msgid "If reCAPTCHA is displayed correctly:"
+msgstr "Если reCAPTCHA отображается правильно:"
+
+#: views/ms-options.php:49, views/options.php:27
+msgid "Check \"Active\" checkbox and save settings."
+msgstr "Установите флажок «Активная» и сохраните настройки."
+
+#: views/ms-options.php:50, views/options.php:28
+msgid ""
+"Open a different browser or use private browsing window to log into your "
+"account."
+msgstr ""
+"Откройте другой бразуер или окно в режиме инкогнито и попробуйте войти в "
+"свой аккаунт."
+
+#: views/ms-options.php:52, views/options.php:30
+msgid ""
+"<strong>Do not</strong> close this window or log out until you make sure "
+"that you are able to log in."
+msgstr ""
+"<strong>Не закрывайте</strong> это окно и <strong>не выходите</strong> из "
+"аккаунта до тех пор, пока не убедитесь, что Вы можете войти в свой аккаунт."
+
+#: views/ms-options.php:54, views/options.php:32
+msgid ""
+"If you are unable to log in, uncheck \"Active\" checkbox and save settings "
+"or deactivate this plugin."
+msgstr ""
+"Если у Вас не получается войти в свой аккаунт, снимите флажок «Активная» и "
+"сохраните настройки, либо деактивируйте данный плагин."
