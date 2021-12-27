@@ -11,8 +11,8 @@
 	],
 	"description" : "WordPress Plugin",
 	"require" : {
-		"composer/installers" : "~1",
-		"php" : "> 7.0.0",
+		"composer/installers" : "^2",
+		"php" : "^7.4",
 		"google/recaptcha": "^1.2"
 	},
 	"suggest" : {
@@ -31,5 +31,10 @@
 		"CAPTCHA",
 		"reCAPTCHA",
 		"wordpress"
-	]
+	],
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	}
 }
